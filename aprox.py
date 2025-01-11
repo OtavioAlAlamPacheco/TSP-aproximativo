@@ -54,3 +54,4 @@ def tsp_aproximativo(arquivo):
     
     return soma_caminho, caminho
 
+  
