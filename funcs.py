@@ -1,5 +1,4 @@
 
-
 import os
 
 
@@ -23,5 +22,3 @@ def ler_matriz(arquivo):
         for linha in arq:
             matriz.append([int(x) for x in linha.split()])
     return matriz
-
-    

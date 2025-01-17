@@ -1,5 +1,4 @@
 
-
 class Subconjunto:
     def __init__(self, pai, rank):
         self.pai = pai
