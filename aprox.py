@@ -7,7 +7,8 @@ def pre_ordem(mst, v, visitado, caminho):
     Realiza uma travessia em pré-ordem na árvore geradora mínima (MST) a partir de um vértice dado.
 
     Parâmetros:
-        mst (vetor de tuplas tuples): Lista de arestas da árvore geradora mínima, onde cada aresta é representada por uma tupla (u, w, peso).
+        mst (vetor de tuplas tuples): Lista de arestas da árvore geradora mínima, onde cada aresta
+                                      é representada por uma tupla (u, w, peso).
         v (int): Vértice inicial para a travessia.
         visitado (vetor de bool): Lista que mantém o controle dos vértices visitados.
         caminho (vetor de int): Lista que armazena a ordem dos vértices visitados durante a travessia.
@@ -54,4 +55,3 @@ def tsp_aproximativo(arquivo):
     
     return soma_caminho, caminho
 
-  

@@ -1,5 +1,4 @@
 
-
 from funcs import ler_matriz
    
 def tsp_deterministico(arquivo):
@@ -62,4 +61,3 @@ def custoTotal(mascara, atual, num_vertices, custo, memo, caminhos):
     caminhos[(atual, mascara)] = melhor_caminho
 
     return custo_final, melhor_caminho
-
