@@ -54,3 +54,4 @@ def tsp_aproximativo(arquivo):
         soma_caminho += matriz[caminho[i]][caminho[i + 1]]
     
     return soma_caminho, caminho
+
